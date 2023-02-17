@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char let = 'a'
+	char let = 'a';
 
 	while (let <= 'z')
 	{
