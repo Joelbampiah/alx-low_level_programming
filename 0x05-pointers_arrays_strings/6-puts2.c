@@ -4,7 +4,7 @@
  * puts2 - prints every other character
  * @str: the pointer 
  */
-void puts(char *str)
+void puts2(char *str)
 {
 	int length = 0;
 
@@ -15,8 +15,8 @@ void puts(char *str)
 			_putchar('\n');
 			break;
 		}
-		if (count % 2 == 0)
-			_putchar(str[count]);
+		if (length % 2 == 0)
+			_putchar(str[length]);
 		length++;
 	}
 }
