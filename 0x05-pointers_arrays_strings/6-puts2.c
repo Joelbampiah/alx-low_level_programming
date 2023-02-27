@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints every other character
- * @str: the pointer 
+ * @str: the pointer
  */
 void puts2(char *str)
 {
